@@ -1,31 +1,25 @@
-# 🤖 DecodeLabs - Enhanced Rule-Based AI Engine
+# DecodeLabs Project 2: Data Classification Using AI
 
-An intelligent, rule-based AI chatbot built in Python as part of the **DecodeLabs Internship Program**. This application uses keyword matching and predefined responses to deliver instant, context-aware answers to user queries.
-
----
-
-## ✨ Features
-* **Keyword Matching & Intent Recognition:** Responds accurately to predefined user queries (e.g., greetings, identity, AI/Python concepts).
-* **Enhanced Rule-Based Engine:** Includes robust fallback responses for unrecognized prompts.
-* **Interactive CLI Interface:** Clean, user-friendly terminal interface with real-time feedback.
-* **Clean Termination:** Graceful exit handling using `exit` or `bye` commands.
+## 📌 Overview
+This project focuses on building a Supervised Machine Learning model for **Data Classification** using Python and Scikit-Learn. The goal is to train a model that categorizes data points into specific classes with high accuracy and validates its performance beyond basic accuracy metrics.
 
 ---
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **IDE:** PyCharm / VS Code
-* **Version Control:** Git & GitHub
+## 🛠️ Key Features & Pipeline
+1. **Data Handling & Exploration:** Loaded the Iris dataset, checked feature distribution, and verified target classes.
+2. **Train/Test Splitting:** Split the dataset into 80% training and 20% testing sets.
+3. **Supervised Learning Model:** Trained a **RandomForestClassifier** algorithm to learn underlying patterns.
+4. **Output Validation:** Evaluated performance using:
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report (Precision, Recall, F1-Score)
+5. **Real-Time Prediction:** Tested the trained model with unseen sample data.
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run
 
 ### Prerequisites
-Make sure you have Python 3.x installed on your machine.
-
-### Installation & Execution
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/silentmoonlight2021-del/DecodeLabs-Internship.git](https://github.com/silentmoonlight2021-del/DecodeLabs-Internship.git)
-   cd DecodeLabs-Internship
+Make sure you have Python installed along with the required libraries:
+```bash
+pip install numpy pandas scikit-learn
